@@ -69,16 +69,16 @@ const Sidebar = ({ user, currentView, setCurrentView, onLogout, onSwitchRole, is
           closed: { x: "-100%" }
         }}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
-        className="fixed left-0 top-0 h-full w-64 bg-white dark:bg-zinc-950 border-r border-zinc-200 dark:border-zinc-800 z-50 flex flex-col lg:translate-x-0"
+className="fixed left-0 top-0 h-full w-64 bg-black border-r border-zinc-800 z-50 flex flex-col lg:translate-x-0"
       >
         <div className="flex-1 overflow-y-auto">
           <div className="p-4">
             <div className="flex items-center justify-between mb-8 h-10">
               <div className="flex items-center gap-2">
                 <img
-                  src="IMG-20251019-WA0004"  // <-- Replace with your actual logo path if different
-                  alt="Company Logo"
-                  className="w-8 h-8 object-contain"
+                  src="/1000065124.jpg"  // <-- Replace with your actual logo path if different
+                  alt="Linquic Logo"
+                  className="w-9 h-9 object-contain"
                 />
                 <h2 className="text-2xl font-bold text-black">Linquic</h2>
               </div>
